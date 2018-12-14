@@ -1,0 +1,94 @@
+/*
+* Emily Torres
+* 12/14/18 
+* Your Cause
+*/
+
+/* The universal selector */
+
+* {
+    
+    margin: 0;
+    padding: 0;
+
+}
+
+/* here I set the background color as white and specified the width and margin so that the page would not go all the way across. */
+body {
+    background-color: white;
+    width: 950px;
+    margin: auto;
+    font-family: arial, Helvetica, sans-serif;}
+
+/* Instead of <hr /> I made a line by using border-top. */
+main {
+    border-top: 4px solid #e65c00;
+    margin: 15px 25px 15px 15px;}
+
+/* I centered the title here and set the color to a dark orange to match the line */
+h1 {
+    margin: 20px 0px;
+    text-align: center;
+    color: #e65c00;}
+
+/* I set the margin and padding and made the color a lighter orange */
+h3 {
+    margin: 9px 10px 5px 10px;
+    padding: 5px;
+    color: #ff9900;}
+
+p {
+    margin: 5px 10px 5px 10px;
+    padding: 5px;
+    font-size: 1.0em;}
+
+/* I used border-top to make a line above the footer instead of using <hr /> */
+footer {
+    border-top: 4px solid #e65c00;}
+
+/* This section formats the unordered list of links I used for research */
+ul {
+    margin: 0px 10px 20px 20px;
+    padding: 0px 5px 5px 35px;
+    color: #e65c00;
+    font-size: 0.9em;}
+
+/* The following 4 selectors format the pictures */
+#map {
+    height: 150px;
+    width: 200px;
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    border: 2px dashed #ff9900;}
+
+#tiger {
+    float: left;
+    height: 170px;
+    width: 170px;
+    margin: 10px 5px 5px 60px;
+    padding: 5px;}
+
+#tigerinwater {
+    float: right;
+    height: 200px;
+    margin: 10px 5px 10px 5px;
+    border: 3px solid #ff9900;}
+
+.family {
+    height: 170px; 
+    width: 170px;
+    margin: 10px 5px 5px 5px;
+    padding: 5px;}
+
+/* the next two ids format the footer */
+#foot {
+    color: #e65c00;
+    font-size: 0.9em;
+    margin: 9px 0px 0px 10px;
+    padding: 5px 0px 2spx 5px;}
+
+#educational {
+    float: right;
+    color: #e65c00;
+    font-size: 0.8em; }
